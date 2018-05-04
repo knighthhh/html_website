@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh" class="no-js -webkit-"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+	<title>汕尾</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+	<link href="./css/bootstrap.min.css" rel="stylesheet">
+	<link href="./css/font-awesome.css" rel="stylesheet">
+	<link href="./css/animate.css" rel="stylesheet">
+	<link href="./css/style.css" rel="stylesheet">
+     <script src="./js/jquery-1.11.0.min.js"></script>
+    <script src="./js/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script>
+   	<script src="./js/bootstrap.min.js"></script>
+    <script src="./js/prefixfree.min.js"></script>
+    <script src="./js/bootsnav.js"></script>
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/swiper.animate1.0.2.min.js"></script>
+    <script src="./js/public.js"></script>
+    <script src="./js/wow.min.js"></script> 
+    <script>
+    var wow = new WOW({
+        boxClass: 'wow',
+        animateClass: 'animated',
+        offset: 0,
+        mobile: false,
+        live: true
+    });
+    wow.init();
+		 var offset = 200;
+  var duration = 500;
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > offset) {
+      $('.back-to-top').fadeIn(400);
+    } else {
+      $('.back-to-top').fadeOut(400);
+    }
+  });
+  $('.back-to-top').click(function(event) {
+    event.preventDefault();
+    $('html, body').animate({
+      scrollTop: 0
+    }, 600);
+    return false;
+  })
+   </script>
+    <script>
+		jQuery(function(){
+    		$('.counter').countUp();
+		});
+    </script>
+    <script>
+    	function scro(){
+			if($(document).scrollTop()>50){$(".headerBg").addClass("active");}else{$(".headerBg").removeClass("active");}
+		}
+		scro();
+		$(window).scroll(function(){
+			scro();
+		})
+    </script>
+</head>
+<body>
+<header class="headerBg fixed-top active">
+	<div class="container-fluid">
+    	<div class="menuBtn">
+        	<span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="hdRig clearfix">
+       <div class="header_phone">
+   	<div class="phone fl">
+   		<h2>汕尾</h2>
+   		<h4>——我的家乡</h4>
+   		
+   	</div>
+   </div>
+        </div>
+        <div class="clear"></div>
+        <div class="navBox hidden-xs hidden-sm">
+        	<ul class="navList list-unstyled">
+            	<li class="navLi"><h3><a href="index.html"><span>首页</span></a></h3> </li>
+            	<li class="navLi"><h3><a href="wenhua.html"><span>汕尾文化</span></a></h3></li>               
+            	<li class="navLi"><h3><a href="xiaochi.html"><span>汕尾小吃</span></a></h3></li>
+                <li class="navLi"><h3><a href="fengjing.html"><span>汕尾风景</span></a></h3> </li>
+                <li class="navLi"><h3><a href="my.html"><span>我的信息</span></a></h3> </li>
+                
+            </ul>
+        </div>
+       
+    </div>
+  </header>
+  
+  
+
+<div class="mainBg">
+	<div class="mainBgImg"></div>
+    <div class="container" style="padding-top: 50px;padding-bottom: 200px;">
+    	<div class="onepage">
+        
+                  
+            <div class="oneText">
+                
+                <p><strong>粿条</strong></p>
+                <ul class="oneList list-unstyled">
+                	<li>采用米、麦以及其他杂粮所制成的副食品称为“粿”或“粄”的，闽南地区，潮汕地区，台湾地区，海南地区基本同根同源，食俗口味也相似。至于香港一些餐室的所谓“贵刁”，实质也是潮汕话“粿条”的译音。在南洋做粿条生意的，都是华侨，它的制法根本和福建、潮汕的相同，不过多加上些咖喱粉而已。这种小食，大概也为当地人士所喜爱，所以粿条也为当地人所熟识。香港餐室又从那里音译过来，名为“贵刁”。有的还郑重其事，加上“秘制”、“马来食品”等等字楼，实在却算不了什么“秘”。而所谓马来食品，不外是潮汕粿条的马来化罢了。</li>
+                </ul>
+            </div>
+           </div>
+    </div>
+    
+</div>
+
+<div class="juchi_style"></div>
+<footer class="footerBg">
+	<div class="container"></div><div class="footBot"><p>xx</p> </div>
+</footer>
+<a href="index.html" class="back-to-top" style="display: block;"><i class="fa fa-angle-up"></i></a>
+    
+
+
+
+</body>
+</html>
