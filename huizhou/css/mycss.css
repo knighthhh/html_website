@@ -1,0 +1,399 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+.navcolor
+{
+	width:100%;
+	height:25px;
+	
+	background-color:rgb(35,55,96);
+}
+
+.top
+{
+	width:100%;
+	height:170px;
+	border:1px solid #DDDDDD;
+	background-color:white;
+}
+
+.top img
+{
+	width:400px;
+	height:80px;
+	margin-left:150px;
+	margin-top:30px;
+	float:left;
+}
+
+
+#aa
+{
+	width:350px;
+	height:50px;
+	margin-left:530px;
+	margin-top:0px;
+	padding-top: 50px;
+	font-size: 40px;
+	color: blue;
+}
+
+
+
+#but
+{
+	margin-top:20px;
+	background-color:#337AB7;
+	width:50px;
+	border:#337AB7;
+	color:white;
+}
+
+.top div p
+{
+	padding-left:0px;
+	margin-top:0px;
+	
+}
+
+/************导航条*****************/
+
+.top ul
+{
+	list-style:none;
+	margin-left:300px;
+	margin-top:30px;
+}
+
+.top ul li
+{
+	float:left;
+	
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:25px;
+	padding-right:25px;
+	margin-top:3px;
+	height:5px;
+	font-size:15px;
+	font-weight:bold;
+	color:#0491D6;
+	/*border:red solid 1px;*/
+	
+}
+
+#one
+{
+	border:1px solid #DDDDDD;
+	border-bottom:none;
+	background-color:#FFFFFF;
+	text-decoration: none;
+}
+
+.top ul li a:link{
+	text-decoration: none;
+	color:#FFFFFF;
+}
+
+.top ul li a:visited
+{
+	color:black;
+}
+
+.top ul a li:hover{
+
+background-color:#EEEEEE;
+}
+
+/*下面是首页图片的内容*/
+
+.top2
+{
+	width:100%;
+	height:300px;
+	/*border:1px solid red;*/	
+}
+
+.top2 img
+{	
+	width:100%;
+	height:300px;
+	margin:0px;
+	
+}
+
+#sy1
+{
+	display:block;
+}
+
+#sy2
+{
+	display:none;
+}
+
+#sy3
+{
+	display:none;
+}
+
+.top2 div
+{
+	position:absolute;
+	width:56px;
+	height:20px;
+	margin-left:1280px;
+	margin-top:270px;
+	
+}
+
+.top2 div ul
+{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+
+.top2 div ul li
+{
+	margin-left:2px;
+	padding:0px;
+	padding-left:3px;
+	padding-right:3px;
+	float:left;
+	/*border:red solid 1px;*/
+	color:white;
+	background-color:#B2C7C9;
+}
+
+
+.mid
+{
+	width:100%;
+	height:250px;
+	/*border:1px solid red;*/
+}
+
+.mid div
+{
+	width:665px;
+	height:250px;
+	/*border:1px solid red;*/
+	float:left;
+	padding-top:15px;
+}
+
+
+.mid div img
+{
+	width:180px;
+	height:200px;
+	margin-left:130px;
+	margin-top:25px;
+	float:left;
+
+}
+
+.mid div span
+{
+	display:block;
+	margin-left:30px;
+	margin-top:30px;
+	float:left;
+	color:#0491D6;
+	font-weight:bold; 
+	font-size:20px;
+	
+}
+
+.mid div span a:link
+{
+	 
+	text-decoration: none;
+	color:red;
+	font-weight:bold; 
+	font-size:15px;
+}
+
+.mid div span a:visited
+{
+	color: red;
+}
+
+.mid div div
+{
+	width:260px;
+	height:150px;
+	float:left;
+	margin-top:0px;
+	padding-left:10px;
+	padding-top:10px;
+	font-size:13px;
+	border:0px;
+}
+
+
+/******************第二组新闻*************/
+
+#img2
+{
+	width:180px;
+	height:200px;
+	margin-left:85px;
+	margin-top:25px;
+	float:left;
+}
+
+.mid div ul
+{
+	width:260px;
+	height:150px;
+	float:left;
+	font-size:20px;
+	margin-top:10px;
+	margin-left:10px;
+	padding-left:10px;
+	padding-top:10px;
+	list-style-type:none;
+}
+
+.mid div ul a:link
+{ 
+	text-decoration: none;
+	color:#0491D6;
+	font-size:15px;
+	
+}
+
+.mid div ul a:hover
+{
+	text-decoration:underline;
+	color:#0491D6;
+}
+
+.mid div ul a:visited
+{
+	color:#0491D6;
+}
+
+
+
+
+/**********图片滚动内容**********************/
+.gun
+{
+	width:100%;
+	height:320px;
+	border:1px solid white;
+}
+
+.gun span
+{
+	font-weight:bold; 
+	font-size:20px;
+	margin-left:130px;
+	padding-top:15px;
+	float:left;
+}
+
+#gundong
+{
+	width:1000px;
+	margin-left:200px;
+	margin-top:60px;
+	
+	overflow:hidden;
+}
+
+
+
+#ingundong
+{
+	float:left;
+	width:500%;
+}
+
+#gundong1
+{
+	float:left;
+}
+#gundong1 img{
+	width: 300px;
+	height: 225px;
+}
+
+#gundong2
+{
+	float:left;
+}
+#gundong2 img{
+	width: 300px;
+	height: 225px;
+}
+
+
+
+/********底部********/
+.bottom
+{
+	width:100%;
+	height:200px;
+	/*border:1px solid red;*/
+	background-color:rgb(35,55,96);
+}
+
+.bottom img
+{
+	width:100px;
+	height:100px;
+	margin-left:100px;
+	margin-top:40px;
+	float:left;
+}
+
+.bottom div
+{
+	margin-left:150px;
+	margin-top:10px;
+}
+
+.bottom ul
+{
+	list-style:none;
+	float:left;
+	font-size:16px;
+	color:white;
+}
+
+.bottom ul li
+{
+	padding-top:8px;
+}
+
+.bottom ul li a:link
+{
+	color:white;
+	text-decoration: none;
+}
+
+.bottom div ul li a:visited
+{
+	color:white;
+}
+
+#fengjing img{
+	width: 450px;
+	height: 250px;
+}
+
+#mingren img{
+	width:100%;
+	height:60%;
+}
+
+#xiaochi img{
+	width: 260px;
+	height: 230px;
+}

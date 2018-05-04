@@ -1,0 +1,256 @@
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+		<title>惠州</title>
+		<link rel="stylesheet" type="text/css" href="css/mycss.css"/>
+	</head>
+
+	<body >
+		<div class="navcolor">
+			
+		</div>
+
+		<div class="top">
+			<img src="img/logo.jpg"/>
+			
+			<div id="aa">
+				我的家乡——惠州
+			</div>
+			
+			<ul>
+				<li id="one"><a href="index.html" style="cursor:default">首页</a></li>
+				<a href="hz_lishi.html"><li>惠州历史</li></a>
+				<a href="hz_fengjing.html"><li>惠州风景</li></a>
+				<a href="hz_xiaochi.html"><li>惠州小吃</li></a>
+				<a href="hz_mingren.html"><li>惠州名人</li></a>
+				<a href="hz_wenhua.html"><li>惠州文化</li></a>
+				<a href="me.html"><li>我的信息</li></a>
+			</ul>
+		</div>
+
+
+<!--首页图片内容-->
+
+		<div class="top2">
+			
+			<div>
+				<ul>
+					<li id="li1" onclick="change(1)" onmousemove="c_color(this)" style="cursor:pointer"   onmouseout="c_color2(this)">1</li>
+					<li id="li2" onclick="change(2)" onmousemove="c_color(this)" style="cursor:pointer"
+					onmouseout="c_color2(this)">2</li>
+					<li id="li3" onclick="change(3)" onmousemove="c_color(this)" style="cursor:pointer"
+					onmouseout="c_color2(this)">3</li>
+				</ul>
+			</div>
+			<img id="sy1" src="img/首页1.jpg"/>
+			<img id="sy2" src="img/首页2.jpg"/>
+			<img id="sy3" src="img/首页3.jpg"/>
+		</div>
+
+
+		<div class="mid">
+			<div >
+				<HR style="position:absolute;left:130px;"width="460px" color=#62BAE5 SIZE=2 />
+				<img src="img/b.jpg"/>
+				<span><font>最具幸福感城市之一</font></span>
+				<br/>
+				<div> 
+				惠州市位于广东省东南部，珠江三角洲东北端，南临南海大亚湾，与深圳、香港毗邻，是中国大陆除深圳市外距离香港最近的城市。惠州市属珠三角经济区，现辖惠州市、惠阳区两区和博罗县、惠东县、龙门县三县。陆地面积1.12万平方公里，占珠三角经济区面积的1/4。海域面积4520平方公里，海岸线长223.6公里，是广东省的海洋大市之一
+				</div>
+			</div>
+
+			<div >
+				<HR style="position:absolute;left:760px;"width="450px" color=#62BAE5 SIZE=2 />
+				<img src="img/c.jpg" id="img2"/>
+				
+				<div>
+					<span><font>惠州西湖</font></span>
+					<div>
+						惠州西湖风景名胜区地处广东省东南部惠州市惠城中心区，由西湖景区和红花湖景区组成，总面积20.91平方公里，其中水域面积3.13平方公里，是以素雅幽深的山水为特征、以历史文化为底蕴、以休闲和观光为主要功能的国家级风景名胜区和国家AAAA级旅游景区
+					</div>
+				</div>
+			</div>
+		</div>
+
+<!--*****************图片滚动的地方*******************-->
+		<div class="gun">
+			<span>惠州一览</span>
+			<div id="gundong">
+				<div id="ingundong">
+					<div id="gundong1">
+						<a href=""><img src="img/滚动1.jpg"/></a>
+						<a href=""><img src="img/滚动2.jpg"/></a>
+						<a href=""><img src="img/滚动3.jpg"/></a>
+						<a href=""><img src="img/滚动4.jpg"/></a>
+						<a href=""><img src="img/滚动5.jpg"/></a>
+					</div>
+					<div id="gundong2">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+
+<script>
+var tab=document.getElementById("gundong");
+			var tab1=document.getElementById("gundong1");
+			var tab2=document.getElementById("gundong2");
+			tab2.innerHTML=tab1.innerHTML;
+
+			function Marquee()
+			{
+				if(tab2.offsetWidth-tab.scrollLeft<=0)
+				{
+					tab.scrollLeft-=tab1.offsetWidth;
+				}
+				else
+				{
+					tab.scrollLeft++;
+				}
+			}
+
+			var MyMar=setInterval("Marquee()",20);
+			tab.onmouseover=function() {clearInterval(MyMar)};
+			tab.onmouseout=function() {MyMar=setInterval("Marquee()",20)};
+			</script>
+
+
+
+		
+
+		<!--底部-->
+		<div class="bottom">
+			<img src="img/xihu.jpg"/>
+			<div>
+				<ul>
+					<li style="margin-bottom:10px">欲把西湖比西子</li>
+					<li>淡妆浓抹总相宜</li>
+					<li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;—— 苏轼</li>
+				</ul>
+
+				<ul>
+					<li style="margin-bottom:10px">毕竟西湖六月中 </li>
+					<li>风光不与四时同</li>
+					<li> &nbsp;&nbsp; &nbsp; &nbsp;—— 杨万里</li>
+				</ul>
+
+				<ul>
+					<li style="margin-bottom:10px">莫向西湖歌此曲</li>
+					<li>水光山色不胜悲</li>
+					<li> &nbsp;&nbsp; &nbsp; &nbsp;—— 赵孟頫</li>
+				</ul>
+
+				<ul>
+					<li style="margin-bottom:10px">西湖，就像镶嵌在天堂里的一颗明珠。一山绿，一山青，像一幅优美的山水画</li>
+					<li>平静的湖面，犹如一面硕大的银镜。一群群白鸥掠过湖面，在阳光下一闪一闪</li>
+					
+				</ul>
+
+			</div>
+		</div>
+
+		<script language="javascript">
+				 
+				var val2=1;
+				var time;
+
+				time=setInterval("change2()",2000);
+
+				function change(val)
+				{
+					clearInterval(time);
+					
+					if(val==1)
+					{
+						li1.style.backgroundColor="#FF6600";
+						li2.style.backgroundColor="#B2C7C9";
+						li3.style.backgroundColor="#B2C7C9";
+						sy1.style.display='block';
+						sy2.style.display='none';
+						sy3.style.display='none';
+						val2=1;
+					}
+					else if (val==2)
+					{
+						li1.style.backgroundColor="#B2C7C9";
+						li2.style.backgroundColor="#FF6600";
+						li3.style.backgroundColor="#B2C7C9";
+						sy1.style.display='none';
+						sy2.style.display='block';
+						sy3.style.display='none';
+						val2=2;
+					}
+					else if(val==3)
+					{
+						li1.style.backgroundColor="#B2C7C9";
+						li2.style.backgroundColor="#B2C7C9";
+						li3.style.backgroundColor="#FF6600";
+						sy1.style.display='none';
+						sy2.style.display='none';
+						sy3.style.display='block';
+						val2=0;
+					}
+
+					time=setInterval("change2()",2000);
+				}
+
+
+				function c_color(obj)
+				{
+					obj.style.backgroundColor="#FF6600";
+				}
+
+				function c_color2(obj)
+				{
+					if(obj==li1  && sy1.style.display!="block")
+					{
+						obj.style.backgroundColor="#B2C7C9";
+					}
+					else if(obj==li2  && sy2.style.display!="block")
+					{
+						obj.style.backgroundColor="#B2C7C9";
+					}
+					else if(obj==li3  && sy3.style.display!="block")
+					{
+						obj.style.backgroundColor="#B2C7C9";
+					}
+					
+				}
+
+
+				function change2()
+				{
+					val2++;
+					if(val2 %3 ==1)
+					{
+						li1.style.backgroundColor="#FF6600";
+						li2.style.backgroundColor="#B2C7C9";
+						li3.style.backgroundColor="#B2C7C9";
+						sy1.style.display='block';
+						sy2.style.display='none';
+						sy3.style.display='none';
+					}
+					else if (val2 %3 ==2)
+					{
+						li1.style.backgroundColor="#B2C7C9";
+						li2.style.backgroundColor="#FF6600";
+						li3.style.backgroundColor="#B2C7C9";
+						sy1.style.display='none';
+						sy2.style.display='block';
+						sy3.style.display='none';
+					}
+					else if(val2 %3 ==0)
+					{
+						li1.style.backgroundColor="#B2C7C9";
+						li2.style.backgroundColor="#B2C7C9";
+						li3.style.backgroundColor="#FF6600";
+						sy1.style.display='none';
+						sy2.style.display='none';
+						sy3.style.display='block';
+					}
+				}
+				
+		</script>
+
+	</body>
+</html>
